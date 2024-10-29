@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '2.0.0.x-dev',
+        'version' => '2.0.0.9999999-dev',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'b847b2f005041d96c996f8181a01de8712cf94ec',
+        'name' => 'benlumia007/backdrop-post-types',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'benlumia007/backdrop' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../benlumia007/backdrop',
+            'aliases' => array(),
+            'reference' => 'c6db51d6a886e196b545d5dae18b3e25fd447b36',
+            'dev_requirement' => false,
+        ),
+        'benlumia007/backdrop-contracts' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../benlumia007/backdrop-contracts',
+            'aliases' => array(),
+            'reference' => 'c20d73a703fab3907e5f428bef8d6276434b9bb3',
+            'dev_requirement' => false,
+        ),
+        'benlumia007/backdrop-post-types' => array(
+            'pretty_version' => '2.0.0.x-dev',
+            'version' => '2.0.0.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'b847b2f005041d96c996f8181a01de8712cf94ec',
+            'dev_requirement' => false,
+        ),
+    ),
+);
